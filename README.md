@@ -31,3 +31,44 @@ Recortador de Diálogos es una aplicación diseñada para facilitar el recorte y
 
    ```bash
    git clone https://github.com/NeonHartPrime/Recortador-de-dialogos.git
+
+## Uso
+
+- Ejecuta la aplicación:
+- Usa los menús y botones para:
+  - Abrir una imagen.
+  - Seleccionar y recortar áreas de la imagen.
+  - Ajustar el espaciado entre los recortes.
+  - Cambiar entre modo claro y oscuro.
+  - Guardar los recortes como una sola imagen.
+- Utiliza los atajos de teclado para acciones rápidas:
+  - Ctrl + O: Abrir una imagen.
+  - Ctrl + S: Guardar la imagen combinada.
+  - Ctrl + Z: Deshacer el último recorte.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+## Contacto
+Para más información, contacta a Neon en neonhartprime@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
