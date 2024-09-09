@@ -1,0 +1,36 @@
+
+El código desarrollado brinda varias funciones y características para facilitar la manipulación de imágenes y ajuste de recortes. Aquí te enumero las principales funciones que ofrece la aplicación:
+
+Funciones de la aplicación:
+Abrir imagen:
+* Permite cargar una imagen desde el sistema de archivos, que será mostrada para su posterior edición y recorte.
+
+Guardar imagen combinada:
+* Después de realizar recortes, puedes guardar la imagen resultante combinando todas las regiones seleccionadas en un solo archivo de imagen PNG.
+
+Recorte de regiones:
+* Permite seleccionar y recortar regiones específicas de una imagen mediante la interacción del mouse.
+
+Deshacer último recorte:
+* Permite deshacer el último recorte realizado eliminándolo de la lista de regiones seleccionadas.
+
+Control de espaciado entre recortes:
+* Un control deslizante (slider) permite ajustar dinámicamente el espaciado entre las imágenes recortadas, mostrando el resultado de manera visual.
+
+Barra de desplazamiento:
+* Se ha integrado una barra de desplazamiento horizontal y vertical para que puedas navegar por imágenes grandes o cuando se combinan múltiples recortes que exceden el área visible.
+
+Modo claro/oscuro:
+* La aplicación permite alternar entre modo claro (por defecto) y modo oscuro, ajustando tanto el fondo, texto, como los bordes de los elementos de la interfaz.
+
+Atajos de teclado:
+Ctrl+O: Abrir una imagen.
+Ctrl+S: Guardar la imagen combinada.
+Ctrl+Z: Deshacer el último recorte.
+Ctrl+N: Alterna Modo claro/oscuro.
+
+
+Estas son las funcionalidades clave implementadas en la aplicación, que permiten una experiencia de edición y recorte de imágenes completa y personalizable.
+
+
+by_Neon con M
