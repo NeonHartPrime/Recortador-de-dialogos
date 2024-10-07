@@ -1,0 +1,101 @@
+QMainWindow {
+    background-color: #fdf5f8; /* Fondo rosa muy claro */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+}
+
+QScrollArea {
+    background-color: #ffffff; /* Fondo blanco para contraste */
+    border: 1px solid #f8c8d2; /* Borde rosa suave */
+}
+
+/* Estilo para la barra de desplazamiento vertical */
+QScrollBar:vertical {
+    background: rgba(250, 200, 220, 0.6); /* Fondo rosa translúcido */
+    width: 14px; /* Ancho de la barra */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:vertical {
+    background: #f8a3b5; /* Color rosa más fuerte para el mango */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #ff6f83; /* Color vibrante al pasar el mouse */
+}
+
+QScrollBar::add-line:vertical, 
+QScrollBar::sub-line:vertical {
+    background: none; /* Sin fondo para mantenerlo limpio */
+}
+
+QScrollBar::add-page:vertical, 
+QScrollBar::sub-page:vertical {
+    background: none; /* Fondo limpio para las páginas */
+}
+
+/* Estilo para la barra de desplazamiento horizontal */
+QScrollBar:horizontal {
+    background: rgba(250, 200, 220, 0.6); /* Fondo rosa translúcido */
+    height: 14px; /* Altura de la barra horizontal */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:horizontal {
+    background: #f8a3b5; /* Color rosa más fuerte para el mango */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #ff6f83; /* Color vibrante al pasar el mouse */
+}
+
+QScrollBar::add-line:horizontal, 
+QScrollBar::sub-line:horizontal {
+    background: none; /* Sin fondo para mantenerlo limpio */
+}
+
+QScrollBar::add-page:horizontal, 
+QScrollBar::sub-page:horizontal {
+    background: none; /* Fondo limpio para las páginas */
+}
+
+QLabel {
+    background-color: #ffffff; /* Fondo blanco para etiquetas */
+    color: #c26b8d; /* Texto en un rosa suave */
+    padding: 10px; /* Espaciado interno */
+    font-size: 14px; /* Tamaño de fuente estándar */
+    border-radius: 4px; /* Bordes suavemente redondeados */
+}
+
+QPushButton {
+    background-color: #f8c8d2; /* Fondo rosa suave para los botones */
+    color: #c26b8d; /* Texto en rosa oscuro */
+    border: 1px solid #e6a2b0; /* Bordes en un tono más claro */
+    border-radius: 6px; /* Bordes redondeados */
+    padding: 8px 16px; /* Botones cómodos y accesibles */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+QPushButton:hover {
+    background-color: #f8a3b5; /* Cambio de fondo suave al pasar el mouse */
+}
+
+QToolBar {
+    background-color: #fdf5f8; /* Fondo rosa muy claro */
+    border: 1px solid #f8c8d2; /* Borde suave */
+    padding: 4px; /* Espacio adicional */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+QToolButton {
+    background-color: #f8c8d2; /* Fondo rosa suave para los botones de herramientas */
+    border: 1px solid #e6a2b0; /* Bordes en un tono más claro */
+    border-radius: 6px; /* Bordes redondeados */
+    padding: 6px; /* Espaciado interno para botones */
+}
+
+QToolButton:hover {
+    background-color: #f8a3b5; /* Color de fondo al pasar el mouse */
+}

@@ -1,0 +1,101 @@
+QMainWindow {
+    background-color: #1a1a2e; /* Fondo oscuro elegante */
+    border-radius: 8px; /* Bordes ligeramente redondeados para darle suavidad */
+}
+
+QScrollArea {
+    background-color: #16213e;  /* Fondo oscuro con un tono profundo */
+    border: none; /* Elimina los bordes para un look más limpio */
+}
+
+/* Estilo para la barra de desplazamiento vertical */
+QScrollBar:vertical {
+    background: rgba(15, 52, 96, 0.6); /* Fondo translúcido para un efecto más moderno */
+    width: 14px; /* Ancho de la barra ligeramente aumentado para facilitar el uso */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:vertical {
+    background: #e94560; /* Color vivo para el mango */
+    border-radius: 7px; /* Bordes redondeados para un look más fluido */
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #ff007f; /* Color vibrante al pasar el mouse */
+}
+
+QScrollBar::add-line:vertical, 
+QScrollBar::sub-line:vertical {
+    background: none; /* Sin fondo para mantenerlo limpio */
+}
+
+QScrollBar::add-page:vertical, 
+QScrollBar::sub-page:vertical {
+    background: none; /* Fondo limpio para las páginas */
+}
+
+/* Estilo para la barra de desplazamiento horizontal */
+QScrollBar:horizontal {
+    background: rgba(15, 52, 96, 0.6); /* Fondo translúcido para la barra horizontal */
+    height: 14px; /* Altura de la barra horizontal */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:horizontal {
+    background: #e94560; /* Color del mango de la barra horizontal */
+    border-radius: 7px; /* Bordes redondeados */
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #ff007f; /* Color del mango al pasar el mouse */
+}
+
+QScrollBar::add-line:horizontal, 
+QScrollBar::sub-line:horizontal {
+    background: none; /* Sin fondo para las líneas de adición y sustracción */
+}
+
+QScrollBar::add-page:horizontal, 
+QScrollBar::sub-page:horizontal {
+    background: none; /* Fondo limpio para las páginas */
+}
+
+QLabel {
+    background-color: #0f3460;  /* Fondo oscuro para resaltar el texto */
+    color: #e94560; /* Color de texto destacado */
+    padding: 12px; /* Más espacio interno para mayor comodidad visual */
+    font-size: 14px; /* Aumentar ligeramente el tamaño de la fuente */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+QPushButton {
+    background-color: #0f3460; /* Fondo oscuro con detalles de contraste */
+    color: #e94560; /* Texto en color vibrante */
+    border: 2px solid #e94560; /* Bordes definidos */
+    border-radius: 8px; /* Bordes redondeados para un look suave */
+    padding: 8px 16px; /* Botones más grandes y accesibles */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+QPushButton:hover {
+    background-color: #16213e; /* Cambio de fondo suave al pasar el mouse */
+}
+
+QToolBar {
+    background-color: #1a1a2e; /* Fondo oscuro uniforme */
+    border: 1px solid #e94560; /* Bordes coloridos para destacar la barra de herramientas */
+    padding: 4px; /* Más espacio para una estética más espaciosa */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+QToolButton {
+    background-color: #0f3460; /* Fondo de los botones de herramientas */
+    border: 1px solid #e94560; /* Bordes de color vibrante */
+    border-radius: 6px; /* Bordes redondeados para suavidad */
+    padding: 6px;
+}
+
+QToolButton:hover {
+    background-color: #16213e; /* Color de fondo al pasar el mouse */
+}
